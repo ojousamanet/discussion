@@ -1,0 +1,136 @@
+@charset "UTF-8";
+body {
+  background: #2e3136;
+  color: #ddd;
+  font-family: 'ゴシックMB101 B JIS2004';
+}
+
+header {
+  background: #22252a;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.border {
+  border-color: #36393e;
+}
+
+.border-top, .border-bottom, .border-start, .border-end {
+  border-color: #36393e !important;
+}
+
+.border-dark {
+  border-color: #282b30 !important;
+}
+
+.bg-dark {
+  background-color: #282b30 !important;
+}
+
+.bg-key {
+  background-color: #6234bd !important;
+}
+
+.text-key {
+  color: #9161ef !important;
+}
+
+.text-tw {
+  color: #2196f3 !important;
+}
+
+.fw-size-0 {
+  font-size: 0;
+}
+
+.btn-key {
+  background-color: #7a4adb;
+  color: #fff;
+}
+
+.btn-tw {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.btn-tw:hover {
+  background-color: #fff;
+  color: #2196f3;
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+
+.z-index-2 {
+  z-index: 2;
+}
+
+.z-index-3 {
+  z-index: 3;
+}
+
+.z-index-4 {
+  z-index: 4;
+}
+
+.z-index-5 {
+  z-index: 5;
+}
+
+.rounded-4 {
+  border-radius: 0.65rem !important;
+}
+
+.mh-50 {
+  max-height: 50vh;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+@media (min-width: 1200px) {
+  header .header-side {
+    max-width: 300px;
+  }
+  header .header-side.right {
+    margin-right: auto;
+  }
+  header .header-side.left {
+    margin-left: auto;
+  }
+  aside > div {
+    max-width: 300px;
+  }
+  aside > div.aside-right {
+    margin-right: auto;
+  }
+  aside > div.aside-left {
+    margin-left: auto;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+  background: transparent;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.09);
+  border-radius: 5px;
+}
+
+::-moz-selection {
+  background: rgba(68, 255, 220, 0.7);
+  color: #fff;
+}
+
+::selection {
+  background: rgba(68, 255, 220, 0.7);
+  color: #fff;
+}
+/*# sourceMappingURL=common.css.map */
