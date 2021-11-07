@@ -1,8 +1,12 @@
-@charset "UTF-8";
 body {
   background: #2e3136;
   color: #ddd;
-  font-family: 'ゴシックMB101 B JIS2004';
+  font-family: -apple-system,"BlinkMacSystemFont","Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif,"Segoe UI Emoji";
+  font-size: 1.0rem;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
 }
 
 header {
